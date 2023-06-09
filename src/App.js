@@ -45,8 +45,13 @@ const  App = () => {
           <p className='create'>Create Account</p>
         </div>
         <div className='theme-toggle'>
-          <h2>Light Theme</h2>
+      
+          {theme === 'light' ? 
+          <h2>Light Theme</h2> 
+          : 
+          <h2>Dark Theme</h2>}
           
+      
           { theme === 'light' ? 
           <BsToggle2Off size={'35px'} onClick={switchTheme}/> 
           : 
