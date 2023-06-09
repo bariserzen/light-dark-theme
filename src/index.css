@@ -165,5 +165,7 @@ button {
 @media screen and (max-width:478px) {
   .login {
     width: 95%;
+    margin-top: 100px;
+    margin-left: 10px;
   }
 }
